@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevIO.Api.ViewModels
 {
-    public class FornecedorViewModelcs
+    public class FornecedorViewModel
     {
         [Key]
         public Guid Id { get; set; }
@@ -25,6 +25,6 @@ namespace DevIO.Api.ViewModels
 
         public bool Ativo { get; set; }
 
-        public IEnumerable<ProdutoViewModel> Produtos get; set; }
+        public IEnumerable<ProdutoViewModel> Produtos { get; set; }
     }
 }
