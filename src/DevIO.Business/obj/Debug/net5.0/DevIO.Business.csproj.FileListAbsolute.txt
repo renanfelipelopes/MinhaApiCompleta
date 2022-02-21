@@ -1,0 +1,12 @@
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.deps.json
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\bin\Debug\net5.0\ref\DevIO.Business.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.pdb
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.csproj.AssemblyReference.cache
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.AssemblyInfoInputs.cache
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.AssemblyInfo.cs
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\ref\DevIO.Business.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.pdb

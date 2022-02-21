@@ -1,0 +1,17 @@
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\DevIO.Data.deps.json
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\DevIO.Data.runtimeconfig.json
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\DevIO.Data.runtimeconfig.dev.json
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\DevIO.Data.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\ref\DevIO.Data.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\DevIO.Data.pdb
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\DevIO.Business.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\bin\Debug\net5.0\DevIO.Business.pdb
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.csproj.AssemblyReference.cache
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.AssemblyInfoInputs.cache
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.AssemblyInfo.cs
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\ref\DevIO.Data.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.pdb
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.genruntimeconfig.cache
