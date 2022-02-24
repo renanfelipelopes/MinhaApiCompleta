@@ -14,14 +14,20 @@ namespace DevIO.Api.Controllers
     {
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IFornecedorService _fornecedorService;
+        private readonly IEnderecoRepository _enderecoRepository;
         private readonly IMapper _mapper;
 
         public FornecedoresController(IFornecedorRepository fornecedorRepository,
-                                      IMapper mapper, IFornecedorService fornecedorService)
+                                      IMapper mapper,
+                                      IFornecedorService fornecedorService,
+                                      INotificador notificador,
+                                      IEnderecoRepository enderecoRepository,
+                                      IUser user) : base(notificador, user)
         {
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
             _fornecedorService = fornecedorService;
+            _enderecoRepository = enderecoRepository;
         }
 
         [HttpGet]
