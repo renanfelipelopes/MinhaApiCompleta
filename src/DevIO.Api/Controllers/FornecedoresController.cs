@@ -47,8 +47,9 @@ namespace DevIO.Api.Controllers
             if (!ModelState.IsValid) return BadRequest();
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
+            var result = await _fornecedorService.Adicionar(fornecedor);
 
-            await _fornecedorService.Adicionar(fornecedor);
+            if (!result) return BadRequest();
 
             return Ok(fornecedor);
         }
