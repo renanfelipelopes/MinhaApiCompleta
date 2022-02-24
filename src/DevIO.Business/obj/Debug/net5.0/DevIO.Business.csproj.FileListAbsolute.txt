@@ -1,3 +1,15 @@
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.deps.json
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.dll
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\bin\Debug\net5.0\ref\DevIO.Business.dll
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.pdb
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.csproj.AssemblyReference.cache
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.AssemblyInfoInputs.cache
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.AssemblyInfo.cs
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.dll
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\ref\DevIO.Business.dll
+C:\Users\Tecdall\Documents\DB2C2636-0FAD-4369-A195-0E759C2E5FD3-04 - API Completa Versao .NET Core 5.0\API\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.pdb
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.deps.json
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\bin\Debug\net5.0\DevIO.Business.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\bin\Debug\net5.0\ref\DevIO.Business.dll

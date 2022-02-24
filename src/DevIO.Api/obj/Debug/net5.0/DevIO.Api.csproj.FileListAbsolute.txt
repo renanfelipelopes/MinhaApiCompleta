@@ -65,7 +65,6 @@ C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\st
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\staticwebassets\DevIO.Api.StaticWebAssets.xml
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\scopedcss\bundle\DevIO.Api.styles.css
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\DevIO.Api.RazorTargetAssemblyInfo.cache
-C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\DevIO.Api.csproj.CopyComplete
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\DevIO.Api.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\ref\DevIO.Api.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\DevIO.Api.pdb
