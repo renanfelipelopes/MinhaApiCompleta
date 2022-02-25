@@ -46,6 +46,11 @@ namespace DevIO.Api
             services.AddControllers().AddJsonOptions(x =>
                 x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
+            services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.SuppressModelStateInvalidFilter = true;
+            });
+
             services.ResolveDependencies();
         }
 
