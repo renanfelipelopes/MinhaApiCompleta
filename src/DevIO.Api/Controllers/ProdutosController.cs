@@ -65,6 +65,23 @@ namespace DevIO.Api.Controllers
             return CustomResponse(produtoViewModel);
         }
 
+        [HttpPost("Adicionar")]
+        public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(ProdutoImagemViewModel produtoViewModel)
+        {
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            var imgPrefixo = Guid.NewGuid() + "_";
+            if (!UploadArquivo(produtoViewModel.ImagemUpload, imagemNome))
+            {
+                return CustomResponse(produtoViewModel);
+            }
+
+            produtoViewModel.Imagem = imagemNome;
+            await _produtoService.Adicionar(_mapper.Map<Produto>(produtoViewModel));
+
+            return CustomResponse(produtoViewModel);
+        }
+
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Atualizar(Guid id, ProdutoViewModel produtoViewModel)
         {
