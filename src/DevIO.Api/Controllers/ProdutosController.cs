@@ -65,18 +65,20 @@ namespace DevIO.Api.Controllers
             return CustomResponse(produtoViewModel);
         }
 
+        //[DisableRequestSizeLimit]
+        [RequestSizeLimit(40000000)]
         [HttpPost("Adicionar")]
         public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(ProdutoImagemViewModel produtoViewModel)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var imgPrefixo = Guid.NewGuid() + "_";
-            if (!UploadArquivo(produtoViewModel.ImagemUpload, imagemNome))
+            if (!await UploadArquivoAlternativo(produtoViewModel.ImagemUpload, imgPrefixo))
             {
                 return CustomResponse(produtoViewModel);
             }
 
-            produtoViewModel.Imagem = imagemNome;
+            produtoViewModel.Imagem = imgPrefixo + produtoViewModel.ImagemUpload;
             await _produtoService.Adicionar(_mapper.Map<Produto>(produtoViewModel));
 
             return CustomResponse(produtoViewModel);
