@@ -59,6 +59,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Formatters.Json": {
               "target": "Package",
               "version": "[2.2.0, )"
