@@ -37,27 +37,7 @@ namespace DevIO.Api
 
             services.AddAutoMapper(typeof(Startup));
 
-            services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevIO.Api", Version = "v1" });
-            });
-
-            services.AddControllers().AddJsonOptions(x =>
-                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
-
-            services.Configure<ApiBehaviorOptions>(options =>
-            {
-                options.SuppressModelStateInvalidFilter = true;
-            });
-
-            services.AddCors(options =>
-            {
-                options.AddPolicy("Development",
-                     builder => builder.AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader());
-            });
+            services.WebApiConfig();
 
             services.ResolveDependencies();
         }
@@ -72,10 +52,6 @@ namespace DevIO.Api
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DevIO.Api v1"));
             }
 
-            app.UseCors("Development");
-
-            app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseAuthorization();
@@ -84,6 +60,8 @@ namespace DevIO.Api
             {
                 endpoints.MapControllers();
             });
+
+            app.UseMvcConfiguration();
         }
     }
 }
