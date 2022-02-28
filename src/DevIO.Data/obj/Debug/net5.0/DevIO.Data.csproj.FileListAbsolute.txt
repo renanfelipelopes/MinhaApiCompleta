@@ -11,7 +11,6 @@ C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\D
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.AssemblyInfoInputs.cache
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.AssemblyInfo.cs
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.csproj.CoreCompileInputs.cache
-C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.csproj.CopyComplete
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\ref\DevIO.Data.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.pdb

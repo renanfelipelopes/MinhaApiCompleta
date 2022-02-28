@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "egygP6siRHj6/It0pyeb9Ses+a2VvMjJCE0912EbjyDd+DEZLUWP7fjhsLHbjyGUXgP+ioJcav5csRmSaUPH3g==",
+  "dgSpecHash": "murNys3KSlRMAG/4nzKQlZfuPgJxYryLswKsm/Fa1BtUHXYmYJZvuZplHVOGK9eIdAkP5R+/+2H8s/cQG1deiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tecdall\\source\\repos\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\5.0.0\\microsoft.aspnetcore.identity.ui.5.0.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\2.2.0\\microsoft.aspnetcore.jsonpatch.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.0\\microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
@@ -47,7 +48,8 @@
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
-    "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\5.0.0\\microsoft.extensions.fileproviders.embedded.5.0.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.0\\microsoft.extensions.identity.core.5.0.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.0\\microsoft.extensions.identity.stores.5.0.0.nupkg.sha512",

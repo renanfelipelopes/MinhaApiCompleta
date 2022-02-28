@@ -63,6 +63,7 @@ namespace DevIO.Api
                 endpoints.MapControllers();
             });
 
+            app.UseAuthentication();
             app.UseMvcConfiguration();
         }
     }
