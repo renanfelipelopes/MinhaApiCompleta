@@ -49,7 +49,7 @@ namespace DevIO.Api.Configuration
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, false);
-                return CustomResponse(registerUser);
+                return CustomResponse(GerarJwt());
             }
 
             foreach (var error in result.Errors)
@@ -68,7 +68,7 @@ namespace DevIO.Api.Configuration
             var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
             if (result.Succeeded)
             {
-                return CustomResponse(loginUser);
+                return CustomResponse(GerarJwt());
             }
 
             if (result.IsLockedOut)
@@ -81,7 +81,7 @@ namespace DevIO.Api.Configuration
             return CustomResponse(loginUser);
         }
 
-        private string GerarJwt(string email)
+        private string GerarJwt()
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
