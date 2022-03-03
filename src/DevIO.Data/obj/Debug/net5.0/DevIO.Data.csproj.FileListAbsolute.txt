@@ -15,3 +15,4 @@ C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\D
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\ref\DevIO.Data.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.pdb
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.genruntimeconfig.cache
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Data\obj\Debug\net5.0\DevIO.Data.csproj.CopyComplete
