@@ -67,7 +67,7 @@ namespace DevIO.Api.Configuration
             var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
             if (result.Succeeded)
             {
-                return CustomResponse(GerarJwt(await loginUser.Email));
+                return CustomResponse(await GerarJwt(loginUser.Email));
             }
 
             if (result.IsLockedOut)
