@@ -54,6 +54,8 @@ namespace DevIO.Api
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DevIO.Api v1"));
             }
 
+            app.UseHsts();
+
             app.UseRouting();
 
             app.UseAuthorization();
