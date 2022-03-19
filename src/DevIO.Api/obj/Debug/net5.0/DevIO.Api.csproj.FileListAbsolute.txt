@@ -73,3 +73,10 @@ C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Mi
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\DevIO.Api.StaticWebAssets.xml
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\DevIO.Api.csproj.CopyComplete

@@ -15,7 +15,8 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace DevIO.Api.Configuration
 {
-    [Microsoft.AspNetCore.Components.Route("api/conta")]
+    [ApiVersion("1.0")]
+    [Microsoft.AspNetCore.Components.Route("api/v{version:apiVersion}/conta")]
     public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;

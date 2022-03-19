@@ -13,8 +13,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DevIO.Api.Controllers
 {
-    [Authorize]
-    [Microsoft.AspNetCore.Mvc.Route("api/produtos")]
+    [ApiVersion("2.0")]
+    [ApiVersion("1.0", Deprecated = true)]
+    [Microsoft.AspNetCore.Mvc.Route("api/v{version:apiVersion}/produtos")]
     public class ProdutosController : MainController
     {
         private readonly IProdutoRepository _produtoRepository;

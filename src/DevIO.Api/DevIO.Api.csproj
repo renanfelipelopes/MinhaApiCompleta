@@ -32,4 +32,9 @@
     <ProjectReference Include="..\DevIO.Data\DevIO.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="V2\" />
+    <Folder Include="V1\" />
+  </ItemGroup>
+
 </Project>
