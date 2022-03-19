@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OPkYpk+w/PHbk1Y86I1IeCh+s4NiLDBuhoi1eZ1ENZgD2ZcrdONw8z0a4oK/rL6iLnZbqAjZyNExH6PVKvleRA==",
+  "dgSpecHash": "8Gpl+Q2glGgUrIkDowwIgKbcAI/h3wVeREExBnyIpKGgMYXGI1w7kRMJiO/rvhmvfAQmhWf4TPzGdUPFZvCimg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tecdall\\source\\repos\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,8 @@
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.0\\microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.mvc.formatters.json\\2.2.0\\microsoft.aspnetcore.mvc.formatters.json.2.2.0.nupkg.sha512",
+    "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
