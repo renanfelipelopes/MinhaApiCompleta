@@ -31,9 +31,12 @@ namespace DevIO.Api.Configuration
             services.AddCors(options =>
             {
                 options.AddPolicy("Development",
-                     builder => builder.AllowAnyOrigin()
+                     builder => 
+                     builder
+                        .AllowAnyOrigin()
                         .AllowAnyMethod()
-                        .AllowAnyHeader());
+                        .AllowAnyHeader()
+                        .AllowCredentials());
             });
 
             return services;
