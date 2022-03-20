@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace DevIO.Api.Configuration
+namespace DevIO.Api.V1.Controllers
 {
     [ApiVersion("1.0")]
     [Microsoft.AspNetCore.Components.Route("api/v{version:apiVersion}/conta")]
@@ -25,7 +25,7 @@ namespace DevIO.Api.Configuration
 
         public AuthController(INotificador notificador,
                               SignInManager<IdentityUser> signInManager,
-                              UserManager<IdentityUser> userManager, 
+                              UserManager<IdentityUser> userManager,
                               IOptions<AppSettings> appSettings,
                               IUser user) : base(notificador, user)
         {
@@ -97,14 +97,14 @@ namespace DevIO.Api.Configuration
             {
                 claims.Add(new Claim(type: "role", value: userRole));
             }
-             
+
             var identityClaims = new ClaimsIdentity();
             identityClaims.AddClaims(claims);
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
             var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
-            { 
+            {
                 Issuer = _appSettings.Emissor,
                 Audience = _appSettings.ValidoEm,
                 Subject = identityClaims,
