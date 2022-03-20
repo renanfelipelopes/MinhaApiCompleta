@@ -45,12 +45,11 @@ namespace DevIO.Api.Configuration
             services.AddCors(options =>
             {
                 options.AddPolicy("Development",
-                     builder => 
-                         builder
-                            .AllowAnyOrigin()
-                            .AllowAnyMethod()
-                            .AllowAnyHeader()
-                            .AllowCredentials());
+                     builder =>
+                        builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
 
                 options.AddPolicy("Production",
                     builder =>
@@ -68,8 +67,7 @@ namespace DevIO.Api.Configuration
         public static IApplicationBuilder UseMvcConfiguration(this IApplicationBuilder app)
         {
             app.UseHttpsRedirection();
-            app.UseMvc();
-
+           
             return app;
         }
     }

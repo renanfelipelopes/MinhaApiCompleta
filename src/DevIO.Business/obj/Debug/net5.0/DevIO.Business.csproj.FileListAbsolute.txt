@@ -21,4 +21,3 @@ C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\ref\DevIO.Business.dll
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.pdb
-C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Business\obj\Debug\net5.0\DevIO.Business.csproj.AssemblyReference.cache
