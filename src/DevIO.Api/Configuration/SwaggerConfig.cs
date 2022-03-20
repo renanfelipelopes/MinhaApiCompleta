@@ -83,10 +83,10 @@ namespace DevIO.Api.Configuration
         {
             var info = new OpenApiInfo()
             {
-                Title = "API - desenvolvedor.io",
+                Title = "API - renan.desenvolvedor",
                 Version = description.ApiVersion.ToString(),
-                Description = "Esta API faz parte do curso REST com ASP.NET Core WebAPI.",
-                Contact = new OpenApiContact() { Name = "Eduardo Pires", Email = "contato@desenvolvedor.io" },
+                Description = "Esta API é para manipular dados de um sistema de cadastro de Produtos e Fornecedores.",
+                Contact = new OpenApiContact() { Name = "Renan Lopes", Email = "contato@desenvolvedor.com" },
                 License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
             };
 
