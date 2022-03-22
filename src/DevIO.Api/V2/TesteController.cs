@@ -23,6 +23,13 @@ namespace DevIO.Api.V2
         [HttpGet]
         public string Valor()
         {
+            _logger.LogTrace("Log de Trace");
+            _logger.LogDebug("Log de Debug");
+            _logger.LogInformation("Log de Informação");
+            _logger.LogWarning("Log de Aviso");
+            _logger.LogError("Log de Erro");
+            _logger.LogCritical("Log de Problema Critico");
+
             return "Eu sou a Versão 2";
         }
     }
