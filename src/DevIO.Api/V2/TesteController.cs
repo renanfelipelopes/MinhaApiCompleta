@@ -15,7 +15,7 @@ namespace DevIO.Api.V2
     {
         private readonly ILogger _logger;
 
-        public TesteController(INotificador notificador, IUser appUser, ILogger logger) : base(notificador, appUser)
+        public TesteController(INotificador notificador, IUser appUser, ILogger<TesteController> logger) : base(notificador, appUser)
         {
             _logger = logger;
         }
