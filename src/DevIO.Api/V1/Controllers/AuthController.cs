@@ -71,8 +71,10 @@ namespace DevIO.Api.V1.Controllers
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true);
+            
             if (result.Succeeded)
             {
+                _logger.LogInformation("Usuário "+ loginUser.Email +" logado com sucesso.");
                 return CustomResponse(await GerarJwt(loginUser.Email));
             }
 
