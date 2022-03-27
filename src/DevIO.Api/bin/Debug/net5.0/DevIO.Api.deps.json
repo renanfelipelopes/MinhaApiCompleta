@@ -37,6 +37,7 @@
           "DevIO.Business": "1.0.0",
           "DevIO.Data": "1.0.0",
           "Elmah.Io.AspNetCore": "4.1.37",
+          "Elmah.Io.Extensions.Logging": "4.1.28",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -389,6 +390,21 @@
         },
         "compile": {
           "lib/netstandard2.0/Elmah.Io.Client.dll": {}
+        }
+      },
+      "Elmah.Io.Extensions.Logging/4.1.28": {
+        "dependencies": {
+          "Elmah.Io.Client": "4.1.36",
+          "Microsoft.Extensions.Logging": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {
+            "assemblyVersion": "4.1.28.0",
+            "fileVersion": "4.1.28.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {}
         }
       },
       "FluentValidation/10.3.4": {
@@ -3688,6 +3704,13 @@
       "sha512": "sha512-sZAfhIE4u8em1qHoWYfs75fJwMJrBpJR3GaABApj3kIM2CxFIV+nkdeebk2TNmqGo3vrf8mme4MkCO38sXc0kA==",
       "path": "elmah.io.client/4.1.36",
       "hashPath": "elmah.io.client.4.1.36.nupkg.sha512"
+    },
+    "Elmah.Io.Extensions.Logging/4.1.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1GK2F7IaLyigtGBQ/hrDLlnDYrjXM0NRV9lCLTaB9FgULMal0C70yWFy9NrTs4htzTHJqtg90CEeyIwDb9hQeg==",
+      "path": "elmah.io.extensions.logging/4.1.28",
+      "hashPath": "elmah.io.extensions.logging.4.1.28.nupkg.sha512"
     },
     "FluentValidation/10.3.4": {
       "type": "package",

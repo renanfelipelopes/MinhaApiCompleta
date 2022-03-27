@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2JrV6qnjbtD8AHNPW20RUf8y3acRD09c0C6TXjVapJQwBaPK+SzJ+6Pa4ySmd7FmvxfSKBJKpFCPiDpTmGPRog==",
+  "dgSpecHash": "jWJE75YjmHJjJYJbk/dfJjqJd2UDqOPkIdwo//MQyla7vsTf7Pg8OS1TxmpKBY3JO5aENI64cbnmu/HFieUR0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tecdall\\source\\repos\\MinhaApiCompleta\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Tecdall\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\elmah.io.aspnetcore\\4.1.37\\elmah.io.aspnetcore.4.1.37.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\elmah.io.client\\4.1.36\\elmah.io.client.4.1.36.nupkg.sha512",
+    "C:\\Users\\Tecdall\\.nuget\\packages\\elmah.io.extensions.logging\\4.1.28\\elmah.io.extensions.logging.4.1.28.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Tecdall\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -54,6 +54,19 @@
           "lib/netstandard2.0/Elmah.Io.Client.dll": {}
         }
       },
+      "Elmah.Io.Extensions.Logging/4.1.28": {
+        "type": "package",
+        "dependencies": {
+          "Elmah.Io.Client": "[4.1.36, 5.0.0)",
+          "Microsoft.Extensions.Logging": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll": {}
+        }
+      },
       "FluentValidation/10.3.4": {
         "type": "package",
         "compile": {
@@ -2701,6 +2714,21 @@
         "lib/netstandard1.4/Elmah.Io.Client.xml",
         "lib/netstandard2.0/Elmah.Io.Client.dll",
         "lib/netstandard2.0/Elmah.Io.Client.xml"
+      ]
+    },
+    "Elmah.Io.Extensions.Logging/4.1.28": {
+      "sha512": "1GK2F7IaLyigtGBQ/hrDLlnDYrjXM0NRV9lCLTaB9FgULMal0C70yWFy9NrTs4htzTHJqtg90CEeyIwDb9hQeg==",
+      "type": "package",
+      "path": "elmah.io.extensions.logging/4.1.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elmah.io.extensions.logging.4.1.28.nupkg.sha512",
+        "elmah.io.extensions.logging.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Elmah.Io.Extensions.Logging.dll",
+        "lib/netstandard2.0/Elmah.Io.Extensions.Logging.xml"
       ]
     },
     "FluentValidation/10.3.4": {
@@ -8354,6 +8382,7 @@
       "DevIO.Business >= 1.0.0",
       "DevIO.Data >= 1.0.0",
       "Elmah.Io.AspNetCore >= 4.1.37",
+      "Elmah.Io.Extensions.Logging >= 4.1.28",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.0",
@@ -8423,6 +8452,10 @@
           "Elmah.Io.AspNetCore": {
             "target": "Package",
             "version": "[4.1.37, )"
+          },
+          "Elmah.Io.Extensions.Logging": {
+            "target": "Package",
+            "version": "[4.1.28, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
