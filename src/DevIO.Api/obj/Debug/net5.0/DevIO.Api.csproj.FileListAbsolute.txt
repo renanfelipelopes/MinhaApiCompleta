@@ -82,3 +82,6 @@ C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\De
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\appsettings.Production.Development.json
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\appsettings.Production.json
 C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\appsettings.Staging.json
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Elmah.Io.AspNetCore.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\bin\Debug\net5.0\Elmah.Io.Client.dll
+C:\Users\Tecdall\source\repos\MinhaApiCompleta\src\DevIO.Api\obj\Debug\net5.0\DevIO.Api.csproj.CopyComplete
