@@ -1,10 +1,7 @@
 name: Deploy AWS
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -37,8 +34,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: api-completa-dotnet
-        environment_name: api-completa-dotnet-env-1
+        application_name: Apicompletadotnet-dev
+        environment_name: Apicompletadotnet-dev
         version_label: ${{ github.run_id }}
         version_descripton: ${{ github.sha }}
         region: us-east-1
